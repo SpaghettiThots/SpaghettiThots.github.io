@@ -1,0 +1,42 @@
+body{
+	margin: 0;
+	position: relative;
+}
+
+.nav{
+	background-color: #ff3344;
+	height: 3em;
+	box-shadow: 0 2px rgba(0, 0, 0, 0.5);
+}
+
+.nav ul{
+	width: 20em;
+	margin: 0 auto;
+}
+
+.nav li{
+	list-style-type: none;
+	display: inline-block;
+	width: auto;
+	color: rgb(255, 255, 255);
+	font-family: 'Josefin Sans';
+	font-size: 1.2em;
+	padding-top: 0.5em;
+}
+
+#nav_blog{
+	margin-right: 5em;
+}
+.nav li a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.nav li:hover{
+	border-bottom: 2px solid #fff;
+}
+
+footer{
+	position: absolute;
+	bottom: 0;
+}
