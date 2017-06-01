@@ -3,40 +3,57 @@ body{
 	position: relative;
 }
 
-.nav{
+#nav_blog{
+	margin-right: 5em;
+}
+
+nav li a{
+	text-decoration: none;
+	color: #fff;
+}
+
+nav li:hover{
+	border-bottom: 2px solid #fff;
+}
+
+.headerfooter{
+	width: 100%;
+
 	background-color: #ff3344;
 	height: 3em;
 	box-shadow: 0 2px rgba(0, 0, 0, 0.5);
 }
 
-.nav ul{
+.headerfooter ul{
 	width: 20em;
 	margin: 0 auto;
 }
 
-.nav li{
+.headerfooter li{
 	list-style-type: none;
 	display: inline-block;
 	width: auto;
 	color: rgb(255, 255, 255);
 	font-family: 'Josefin Sans';
 	font-size: 1.2em;
+	font-weight: 700;
 	padding-top: 0.5em;
 }
 
-#nav_blog{
-	margin-right: 5em;
-}
-.nav li a{
+.headerfooter li a{
 	text-decoration: none;
 	color: #fff;
 }
 
-.nav li:hover{
+.headerfooter li:hover{
 	border-bottom: 2px solid #fff;
 }
 
 footer{
-	position: absolute;
+	position: fixed;
 	bottom: 0;
+}
+
+li.right{
+	margin-right: 2em;
 }
