@@ -7,8 +7,12 @@ body{
 	margin-right: 5em;
 }
 
-nav li a{
+a{
 	text-decoration: none;
+	color: cornflowerblue;
+}
+
+nav li a{
 	color: #fff;
 }
 
@@ -17,6 +21,7 @@ nav li:hover{
 }
 
 .headerfooter{
+	font-family: Roboto;
 	width: 100%;
 
 	background-color: #ff3344;
@@ -34,9 +39,9 @@ nav li:hover{
 	display: inline-block;
 	width: auto;
 	color: rgb(255, 255, 255);
-	font-family: 'Josefin Sans';
+	font-family: Roboto;
 	font-size: 1.2em;
-	font-weight: 700;
+	font-weight: 500;
 	padding-top: 0.5em;
 }
 
@@ -49,6 +54,11 @@ nav li:hover{
 	border-bottom: 2px solid #fff;
 }
 
+nav{
+	position: fixed;
+	top: 0;
+}
+
 footer{
 	position: fixed;
 	bottom: 0;
@@ -56,4 +66,102 @@ footer{
 
 li.right{
 	margin-right: 2em;
+}
+
+#main{
+	width: 70%;
+	margin: 0 auto;
+	background-color: rgb(200, 200, 200);
+}
+
+#main p{
+	padding: 3em;
+	color: rgba(50, 50, 50, 1);
+	font-family: 'Roboto Slab';
+	font-weight: 300;
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 3em;
+
+}
+
+#boxes-container{
+	width: 70%;
+	margin: 0 auto;
+	padding-left: 2em;
+}
+
+.boxes{
+	width: 15em;
+	height: 15em;
+	margin: 0 auto;
+	display: inline-block;
+	margin-top: 0.2em;
+	/*border-radius: 1em;*/
+	text-align: center;
+}
+
+.boxes p{
+	text-align: justify;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-bottom: 0.5em;
+	font-family: Roboto;
+	font-size: 0.8em;
+}
+
+.boxes h2{
+	font-family: 'Roboto';
+	text-decoration: underline;
+}
+
+.right-border{
+	border-right: 1px dotted #999;
+}
+
+#r{
+	color: red;
+}
+
+#g{
+	color: green;
+}
+
+#b{
+	color: blue;
+}
+
+.boxes p:hover{
+	color: #999;
+}
+
+#r button{
+	background-color: DodgerBlue;
+	border: none;
+	border-radius: 2px;
+	height: 30px;
+	color: #fff;
+	font-family: Ubuntu;
+}
+
+#g button{
+	background-color: DodgerBlue;
+	border: none;
+	border-radius: 2px;
+	height: 30px;
+	color: #fff;
+	font-family: Ubuntu;
+}
+
+#b button{
+	background-color: DodgerBlue;
+	border: none;
+	border-radius: 2px;
+	height: 30px;
+	color: #fff;
+	font-family: Ubuntu;
+}
+
+#main p{
+	padding-bottom: 3em;
 }
